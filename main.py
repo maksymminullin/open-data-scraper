@@ -60,7 +60,7 @@ def main():
     target_folder = args.folder_path
 
     if not target_folder.exists() or not target_folder.is_dir():
-        print(f"❌ Error: The directory '{target_folder}' does not exist or is not a folder.")
+        print(f"Error: The directory '{target_folder}' does not exist or is not a folder.")
         return
 
     print(f"Searching for files in: {target_folder}...\n")
